@@ -31,15 +31,13 @@ class NOtification extends StatelessWidget {
                   Container(
                     padding: EdgeInsets.fromLTRB(5,0,5,0),
                     child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
                         Text(
                           'Lorem ipsum dolor sit',
                           style: TextStyle(fontSize: 16),
                         ),
-                        SizedBox(
-                          width: 96,
-                        ),
+                        
                         IconButton(
                           splashColor: Colors.white,
                           icon: Icon(
@@ -74,15 +72,13 @@ class NOtification extends StatelessWidget {
                   Container(
                     padding: EdgeInsets.fromLTRB(5,0,5,0),
                     child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
                         Text(
                           'Lorem ipsum dolor sit',
                           style: TextStyle(fontSize: 16),
                         ),
-                        SizedBox(
-                          width: 96,
-                        ),
+                        
                         IconButton(
                           splashColor: Colors.white,
                           icon: Icon(
@@ -117,15 +113,13 @@ class NOtification extends StatelessWidget {
                   Container(
                     padding: EdgeInsets.fromLTRB(5,0,5,0),
                     child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
                         Text(
                           'Lorem ipsum dolor sit',
                           style: TextStyle(fontSize: 16),
                         ),
-                        SizedBox(
-                          width: 96,
-                        ),
+                        
                         IconButton(
                           splashColor: Colors.white,
                           icon: Icon(
